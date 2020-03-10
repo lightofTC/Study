@@ -1,0 +1,17 @@
+E:\课件\大三上\Window编程\MySqlTest\bin\Debug\MySqlTest.exe.config
+E:\课件\大三上\Window编程\MySqlTest\bin\Debug\MySqlTest.exe
+E:\课件\大三上\Window编程\MySqlTest\bin\Debug\MySqlTest.pdb
+E:\课件\大三上\Window编程\MySqlTest\bin\Debug\MySql.Data.dll
+E:\课件\大三上\Window编程\MySqlTest\bin\Debug\Google.Protobuf.dll
+E:\课件\大三上\Window编程\MySqlTest\bin\Debug\BouncyCastle.Crypto.dll
+E:\课件\大三上\Window编程\MySqlTest\bin\Debug\Renci.SshNet.dll
+E:\课件\大三上\Window编程\MySqlTest\bin\Debug\MySql.Data.xml
+E:\课件\大三上\Window编程\MySqlTest\obj\Debug\MySqlTest.csprojAssemblyReference.cache
+E:\课件\大三上\Window编程\MySqlTest\obj\Debug\MySqlTest.Form1.resources
+E:\课件\大三上\Window编程\MySqlTest\obj\Debug\MySqlTest.Properties.Resources.resources
+E:\课件\大三上\Window编程\MySqlTest\obj\Debug\MySqlTest.csproj.GenerateResource.cache
+E:\课件\大三上\Window编程\MySqlTest\obj\Debug\MySqlTest.csproj.CopyComplete
+E:\课件\大三上\Window编程\MySqlTest\obj\Debug\MySqlTest.exe
+E:\课件\大三上\Window编程\MySqlTest\obj\Debug\MySqlTest.pdb
+E:\课件\大三上\Window编程\MySqlTest\obj\Debug\MySqlTest.AddDataForm.resources
+E:\课件\大三上\Window编程\MySqlTest\obj\Debug\MySqlTest.ModificationForm.resources
