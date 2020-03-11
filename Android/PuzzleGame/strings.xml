@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">拼图游戏</string>
-    <string name="startAgain_button">重来</string>
-    <string name="exit_button">退出</string>
-    <string name="change_picture_button">换图</string>
-
-</resources>
