@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array对象使用示例</title>
+    <script language="JavaScript">
+        i=0
+        function Course(name, teacher, price) {
+            this.CourseName=name
+            this.Teacher=teacher
+            this.Price=price
+            this.showInfo=showInfo
+        }
+        function showInfo() {
+            document.CForm.CName.value=this.CourseName
+            document.CForm.CTeacher.value=this.Teacher
+            document.CForm.CPrice.value=this.Price
+        }
+        function FindCourses() {
+            Courses[i%Courses.length].showInfo()
+            this.i++
+        }
+    </script>
+</head>
+<body>
+<script language="JavaScript">
+    var Courses=new Array()
+    Courses[0]=new Course("数据结构","李春葆",45.6)
+    Courses[1]=new Course("数据库","余伟",38.8)
+    Courses[2]=new Course("操作系统","蒋晶钰",45)
+</script>
+<br>
+<center><h2>Array对象的使用</h2>
+<font color="red" size="4">点击按钮查看课程信息</font>
+    <BR><br>
+    <input type="button" value="继续" onclick="FindCourses()">
+    <br><br>
+    <form name="CForm">
+        课程：<input type="text" name="CName"><br>
+        教师：<input type="text" name="CTeacher"><br>
+        价格：<input type="text" name="CPrice">
+    </form>
+</center>
+</body>
+</html>

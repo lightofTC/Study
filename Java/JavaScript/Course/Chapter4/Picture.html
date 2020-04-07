@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片交换示例</title>
+    <script language="JavaScript" >
+        function ChangeImage () {
+            cat_top=cat.style.top
+            cat_left=cat.style.left
+            cat.style.top=mouse.style.top
+            cat.style.left=mouse.style.left
+            mouse.style.top=cat_top
+            mouse.style.left=cat_left
+        }
+    </script>
+</head>
+<body onclick="ChangeImage()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<font face="隶书" color="#7fff00" size=6>请单击页面</font>
+<div id="cat" style="position: absolute;top:60px;left: 60px">
+    <img src="cat.gif" width="80" height="80"><br>&nbsp;&nbsp;<font size="5" color="red">cat</font>
+</div>
+<div id="mouse" style="position: absolute;top:60px;left: 160px">
+    <img src="mouse.gif" width="80" height="80"><br>&nbsp;&nbsp;<font size="5" color="red">mouse</font>
+</div>
+</body>
+</html>
