@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件响应示例</title>
+    <script language="JavaScript">
+        function link() {
+            if (window.confirm("确定访问此未知的危险网址？") == true){
+                if (window.confirm("再次确定访问此未知的危险网址？") == true){
+                    if (window.confirm("您一定要访问此未知的危险网址？") == true){
+                        if (window.confirm("你绝对会后悔的！！！") == false)
+                            window.event.returnValue = false
+                    }else
+                        window.event.returnValue = false
+                }else
+                    window.event.returnValue = false
+        }else
+                window.event.returnValue = false
+        }
+    </script>
+</head>
+<body>
+<a href="https://github.com/lightofTC" onclick="link()" onmouseover="this.bgColor='red'">
+    <h2>欢迎访问我的Github</font></h2>
+</a>
+
+</body>
+</html>
